@@ -37,6 +37,8 @@ Your app is ready to be deployed!
 
 For this Vite project, the production output is written to the `dist/` folder. Deploy that folder to any static hosting service such as Azure Static Web Apps, Netlify, Vercel, or GitHub Pages.
 
+For GitHub Pages specifically, this repo is configured with a relative Vite base path so the built app can open from a project page URL.
+
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ## Learn More
