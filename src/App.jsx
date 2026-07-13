@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import './App.css';
 import { formatDate, formatTime } from './utils/dateTime';
-import { modules, supplyMetrics, supplyTrend } from './data/dashboardData';
+import { modules, suppics, supplyTrend } from './data/dashboardData';
 import Sidebar from './components/dashboard/Sidebar';
 import TopBar from './components/dashboard/TopBar';
 import SupplyDashboard from './components/dashboard/SupplyDashboard';
