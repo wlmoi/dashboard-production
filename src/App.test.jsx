@@ -2,8 +2,9 @@ import { expect, test } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders the SQP dashboard shell', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeDefined();
+  expect(screen.getByText(/Real-Time Monitoring Dashboard/i)).toBeDefined();
+  expect(screen.getByRole('button', { name: /Supply Dashboard/i })).toBeDefined();
+  expect(screen.getByText(/Current Date/i)).toBeDefined();
 });
